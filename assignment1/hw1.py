@@ -32,7 +32,6 @@ def histogram_times(filename):
 
 
 
-
 def weigh_pokemons(filename, weight):
     newlist = list()
     jsonResponse=json.loads(open(filename).read())
